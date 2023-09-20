@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Programming_Hero\\Next_Level\\assaignment-8\\book_catalog\\logs\\winston\\errors\\.8fb3b02f5700288c6dec62de58affa9ec5155b6e-audit.json",
+    "files": [
+        {
+            "date": 1695207540843,
+            "name": "E:\\Programming_Hero\\Next_Level\\assaignment-8\\book_catalog\\logs\\winston\\errors\\phu-2023-20-09-16-error.log",
+            "hash": "0f4be9016353f12c30961188240df83ecd395f512ce560fb5d33cd53d672a3e6"
+        },
+        {
+            "date": 1695207603594,
+            "name": "E:\\Programming_Hero\\Next_Level\\assaignment-8\\book_catalog\\logs\\winston\\errors\\phu-2023-20-09-17-error.log",
+            "hash": "fc261c96db686b804b8cf1937eb87a760967ffc65e167753a9a2cc08d3b499fd"
+        },
+        {
+            "date": 1695226394215,
+            "name": "E:\\Programming_Hero\\Next_Level\\assaignment-8\\book_catalog\\logs\\winston\\errors\\phu-2023-20-09-22-error.log",
+            "hash": "d6ad1916287f53daf992a8dde700723a14bcf36a992049c4f35a36d7a47c03c7"
+        },
+        {
+            "date": 1695229338979,
+            "name": "E:\\Programming_Hero\\Next_Level\\assaignment-8\\book_catalog\\logs\\winston\\errors\\phu-2023-20-09-23-error.log",
+            "hash": "9d4024cd2ae8f395924faa64df946e71b931ce89bbedff49cc943353e659af5c"
+        },
+        {
+            "date": 1695233207250,
+            "name": "E:\\Programming_Hero\\Next_Level\\assaignment-8\\book_catalog\\logs\\winston\\errors\\phu-2023-21-09-00-error.log",
+            "hash": "7b3e078c39b3dd1bbebe75733e65db3f9597d9d4d890ed314b570e8902f6f842"
+        }
+    ],
+    "hashType": "sha256"
+}
