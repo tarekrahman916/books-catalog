@@ -4,7 +4,7 @@ import httpStatus from 'http-status';
 
 import cookieParser from 'cookie-parser';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import router from './app/routes';
+import routes from './app/routes/index';
 
 const app: Application = express();
 
@@ -15,7 +15,14 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1', router);
+app.use('/api/v1', routes);
+
+app.get('/', async (req: Request, res: Response) => {
+  res.status(httpStatus.OK).json({
+    success: true,
+    message: 'Welcome Book Catalog SERVER',
+  });
+});
 
 //global error handler
 app.use(globalErrorHandler);

@@ -29,14 +29,14 @@ const signIn = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
     throw new ApiError(httpStatus.NOT_FOUND, 'Password does not match');
   }
 
-  const { id: userId, role } = isUserExist;
+  const { email: userEmail, role } = isUserExist;
   const accessToken = jwtHelpers.createToken(
-    { userId, role },
+    { userEmail, role },
     config.jwt.secret as Secret,
     config.jwt.expires_in as string
   );
   const refreshToken = jwtHelpers.createToken(
-    { userId, role },
+    { userEmail, role },
     config.jwt.refresh_secret as Secret,
     config.jwt.refresh_expires_in as string
   );
